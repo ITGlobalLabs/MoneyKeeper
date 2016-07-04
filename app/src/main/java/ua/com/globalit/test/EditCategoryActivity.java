@@ -60,7 +60,7 @@ public class EditCategoryActivity extends AppCompatActivity implements View.OnCl
 
             case R.id.remove:
 
-                if(position >= 0 ){
+                if(position > 0 ){
                     spinnerArrayAdapter.remove(selectedCategory);
                     spinnerArrayAdapter.notifyDataSetChanged();
                 }

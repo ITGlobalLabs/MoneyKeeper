@@ -8,7 +8,7 @@ public class CategoryModel {
     public String Name;
     public float Value;
 
-    public CategoryModel(String name, int value) {
+    public CategoryModel(String name, float value) {
         Name = name;
         Value = value;
     }
